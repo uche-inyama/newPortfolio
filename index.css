@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,600;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stylish&display=swap");
+
+
+
+body {
+  background-color: #f4f5f7;
+}
+
+.profile {
+  height: 200px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #fff;
+  z-index: 2;
+  box-shadow: 0 0 18px 0  #7f8cff, 0 0 15px -5px #505f79;
+}
+.title-description {
+  padding-top: 20px;
+}
+
+.title-description p.my-name,
+.description,
+.myProject {
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+}
+
+
+
+.title-description p.my-name {
+  color: #747fe0;
+  text-align: left;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.title-description {
+  height: 120px;
+}
+
+.social-icons{
+  text-align: center;
+  font-size: .8em;
+}
+
+.description.icons{
+  margin: 10px 0;
+  text-align: center;
+}
+.description.icons a {
+  text-decoration: none;
+}
+.description {
+  font-size: 1em;
+  padding-left: 20px;
+  height: 30px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 10%;
+  position: relative;
+  top: 300px;
+  z-index: 1;
+}
+
+.myProject{
+  text-align: center;
+  color: #747fe0;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.item {
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: max-content;
+  min-height: 469px;
+  margin: 50px auto;
+  padding: 24px;
+  width: 80%;
+}
+
+.item-img {
+  border-radius: 8px;
+  /* border: 1px solid  #dfe1e6; */
+  display:flex;
+  justify-content: flex-start;
+  flex-basis: 65%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.item-img img {
+  height: 490px;
+  border-radius: 8px;
+}
+
+img {
+  border-style: none;
+}
+
+.item-detail {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 35%;
+  margin: 0px 10px;
+  padding: 10px;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 52px;
+  color: #091E42;
+  margin: 15px 0;
+}
+.information, .stack {
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+}
+.stack {
+  color: blue;
+  margin: 5px;
+  padding-top: 15px;
+}
+.stack-list {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.stack-list li{
+  margin-right: 10px;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  background-color: gainsboro;
+  color: #4053fc;
+  min-width: 60px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 5px;
+}
+.technologies {
+  border-bottom: solid 1px blue;
+}
+
+.links {
+  display: flex;
+  margin-top: 15px;
+}
+
+.links a {
+  text-decoration: none;
+  margin-right: 5px;
+  background-color: gainsboro;
+  font-family: 'Poppins', sans-serif;
+  width: 90px;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.click {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a:nth-child(2){
+  width: 100px;
+}
+
+footer {
+  padding-left: 5px;
+  position: relative;
+  top: 300px;
+  color: blue;
+  z-index: 1;
+}
+
+footer div {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+footer h3, 
+.social_media li {
+  font-family: 'Poppins', sans-serif;
+} 
+
+footer h3 {
+  font-size: 1em;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.social_media {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 50px);
+}
+
+.social_media .email {
+  background-color: gainsboro;
+  padding: 5px;
+  color: blue;
+}
+
+.social_media li {
+  justify-self: center;
+  align-self: center;
+}
+
+.social_media li a {
+  display: flex;
+}
+.social_media li a i {
+  margin-right: 10px;
+}
+
+.right p:first-of-type {
+  display: none;
+}
+
+.email a,
+.linkedin a,
+.github a {
+  display: inline-block;
+  background-color: gainsboro;
+  border-radius: 2px;
+  color: blue;
+  font-size: 1em;
+  padding: 5px;
+  text-decoration: none;
+  width: 100px;
+}
+
+.inspiration {
+  display: block;
+  margin-left: 10px;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding-top: 50px;
+  height: 100px;
+  font-family: "Stylish", sans-serif;
+}
+
+
+@media (min-width: 524px) {
+  .title-description {
+    height: 150px;
+  }
+
+  .title-description {
+    margin-bottom: 10px;
+  }
+  .title-description p.my-name {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width: 100%;
+  }
+  .description {
+    font-size: 1.2em;
+    padding-left: 20px;
+  }
+  .myProject {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .item {
+     flex-direction: row;
+  }
+
+  footer h3 {
+    color: #747fe0;
+    font-size: 1.2em;
+    padding-top: 25px;
+    height: 50px;
+  }
+ 
+  .social_media {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .social_media li {
+    margin-right: 15px;
+  }
+}
+
+
+
+@media only screen and (min-width: 1024px){
+  .title-description {
+    margin-bottom: 40px;
+  }
+  .title-description p.my-name {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    width: 100%;
+  }
+
+  .description {
+    font-size: 1.5em;
+    padding-left: 60px;
+  }
+}
