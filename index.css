@@ -149,7 +149,7 @@ img {
   font-size: 1em;
   font-family: 'Poppins', sans-serif;
   background-color: gainsboro;
-  color: #4053fc;
+  color: black;
   min-width: 60px;
   text-align: center;
   border-radius: 3px;
@@ -188,7 +188,7 @@ footer {
   padding-left: 5px;
   position: relative;
   top: 300px;
-  color: blue;
+  color: black;
   z-index: 1;
 }
 
@@ -216,7 +216,7 @@ footer h3 {
 .social_media .email {
   background-color: gainsboro;
   padding: 5px;
-  color: blue;
+  color: black;
 }
 
 .social_media li {
@@ -241,7 +241,7 @@ footer h3 {
   display: inline-block;
   background-color: gainsboro;
   border-radius: 2px;
-  color: blue;
+  color: black;
   font-size: 1em;
   padding: 5px;
   text-decoration: none;
@@ -288,7 +288,7 @@ footer h3 {
   }
 
   footer h3 {
-    color: #747fe0;
+    color: black;
     font-size: 1.2em;
     padding-top: 25px;
     height: 50px;
