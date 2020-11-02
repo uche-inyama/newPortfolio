@@ -244,13 +244,16 @@ footer h3 {
   width: 100px;
 }
 
+.recommendation {
+  padding-top: 50px;
+}
+
 .inspiration {
   display: block;
   margin-left: 10px;
   font-size: 1.2em;
   text-decoration: none;
-  padding-top: 50px;
-  height: 100px;
+  height: 30px;
   font-family: "Stylish", sans-serif;
 }
 
