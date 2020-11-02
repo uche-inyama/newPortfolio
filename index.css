@@ -213,13 +213,7 @@ footer h3 {
 .social_media {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 50px);
-}
-
-.social_media .email {
-  background-color: blue;
-  padding: 5px;
-  color: #fff;
+  grid-template-rows: repeat(4, 50px);
 }
 
 .social_media li {
@@ -238,9 +232,7 @@ footer h3 {
   display: none;
 }
 
-.email a,
-.linkedin a,
-.github a {
+.contact a{
   display: inline-block;
   background-color: blue;
   border-radius: 2px;
