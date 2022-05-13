@@ -6,6 +6,11 @@ body {
   background-color: #f4f5f7;
 }
 
+main {
+  width: 95%;
+  margin: 0 auto;
+}
+
 .profile {
   height: 200px;
   position: fixed;
@@ -84,9 +89,7 @@ section {
   justify-content: space-between;
   height: max-content;
   min-height: 469px;
-  margin: 50px auto;
-  padding: 24px;
-  width: 80%;
+  margin-bottom: 50px;
 }
 
 .item-img {
@@ -96,10 +99,10 @@ section {
   flex-basis: 65%;
   margin: 0;
   overflow: hidden;
+  padding: 20px;
 }
 
 .item-img img {
-  height: 490px;
   border-radius: 8px;
 }
 
@@ -112,7 +115,7 @@ img {
   display: flex;
   flex-direction: column;
   flex-basis: 35%;
-  margin: 0px 10px;
+  margin: 0 0 0 30px;
   padding: 10px;
 }
 
